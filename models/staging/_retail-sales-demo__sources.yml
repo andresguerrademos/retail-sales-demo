@@ -1,0 +1,13 @@
+version: 2
+sources:
+
+  - name: retail-sales-demo
+    database: retail-sales-demo
+    schema: raw_data
+    tables:
+      - name: customers
+      - name: inventory
+      - name: products
+      - name: sales
+      - name: stores
+      - name: suppliers
